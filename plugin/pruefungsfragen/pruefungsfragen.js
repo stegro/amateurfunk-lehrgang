@@ -28,7 +28,7 @@ function init() {
 function fillPruefungsfrageDummy(){
     var elems = document.getElementsByClassName("pruefungsfrage");
     for (var i = 0; i < elems.length; i++) {
-        elems.item(i).innerHTML = "Pruefungsfrage " + elems.item(i).id + " ist noch nicht geladen.";
+        elems.item(i).innerHTML = "Pruefungsfrage " + elems.item(i).id + " ist noch nicht geladen. Für Firefox bitte in <a href=\"about:config\">about:config</a> den Wert <code>security.fileuri.strict_origin_policy</code> auf <code>false</code> setzen.";
     }
 }
 
