@@ -1,0 +1,45 @@
+
+@import "./simple.css";
+
+
+
+/* Logo in bottom left corner.
+*/
+body:before {
+  position: absolute;
+  content: "";
+  display: block;
+  background: url("../../img/logos/DARC_Logo.svg") left top no-repeat;
+  width: 140px;
+  height: 140px;
+  bottom: 0px;
+  left: 5px;
+  background-size: 100% ;
+  z-index: 9999;
+}
+
+/*
+ https://stackoverflow.com/questions/30861845/how-to-use-two-column-layout-with-reveal-js
+*/
+.container{
+    display: flex;
+}
+.col{
+    flex: 1;
+}
+
+.reveal .slides { margin: 0; }
+
+
+/*
+ https://stackoverflow.com/questions/21019476/how-can-i-get-left-justified-paragraphs-in-reveal-js
+ */
+.left-aligned {
+    text-align: left;
+}
+
+.reveal ol, .reveal dl, .reveal ul {
+    display: block;
+}
+
+
