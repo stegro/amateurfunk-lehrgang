@@ -1,0 +1,9 @@
+.pruefungsfrage li.wrong:focus { background-color: lightcoral; }
+.pruefungsfrage li.right:focus { background-color: lightgreen; }
+.pruefungsfrage table {
+    font-size: .8em;
+}
+.pruefungsfrage img {
+    max-width: 100%;
+    width: 50%;
+}
